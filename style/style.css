@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&family=Open+Sans:ital,wght@0,300;0,600;1,300;1,800&family=Stint+Ultra+Condensed&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #cbd4d2;
+}
+
+*, *::after, *::before {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Stint Ultra Condensed', cursive;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 33px;
+
+}
+header{
+    text-align: center;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    color: #000000;
+    margin: 3px 0 0 0;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000000;
+    cursor: pointer;
+}
+.score{
+    background-color: #6d7573;
+    padding: 10px;
+    width: 255px;
+    min-height: 100px;
+    height:  auto;
+    height: min-content 100px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    letter-spacing: 3px;
+    font-weight: 200;
+
+  
+}
+.previous-operation{
+    font-size: 20px;
+    opacity: 0.9;
+
+}
+.current-operation {
+    font-size: 40px;
+}
